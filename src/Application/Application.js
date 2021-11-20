@@ -87,7 +87,7 @@ export default class Application {
 
         this.camera.update()
 
-        if (this.world)
+        if (this.world.sphere)
             this.world.update()
 
         if (this.renderer)
